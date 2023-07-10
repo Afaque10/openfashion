@@ -6,15 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
-    android:background="#D6D6D6"
-    android:gravity="center">
-    <ImageView
-        android:layout_width="100dp"
+    android:background="#D6D6D6">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/fashionopen"
+        android:orientation="vertical"
+        android:gravity="center"
         >
-    </ImageView>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fashionopen"
+            >
+        </ImageView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="#88000000"
+            android:visibility="gone">
+
+        </ProgressBar>
+
+
+    </LinearLayout>
 
 
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
