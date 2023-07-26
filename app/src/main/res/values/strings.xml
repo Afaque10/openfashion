@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Open Fashion</string>
+    <string name="pref_previously_started">false</string>
 </resources>
