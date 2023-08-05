@@ -71,6 +71,7 @@
                 android:orientation="vertical"
                 >
                 <Button
+                    android:id="@+id/next_button"
                     android:layout_marginTop="10dp"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
@@ -131,7 +132,7 @@
 
     <LinearLayout
         android:id="@+id/verifyotplayout"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -164,6 +165,7 @@
             android:layout_gravity="center">
         </TextView>
         <TextView
+            android:id="@+id/phone_textview"
             android:padding="5dp"
             android:textStyle="bold"
             android:textSize="20dp"
