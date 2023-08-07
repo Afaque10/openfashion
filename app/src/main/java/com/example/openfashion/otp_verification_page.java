@@ -1,7 +1,7 @@
 package com.example.openfashion;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -230,4 +230,4 @@ public class otp_verification_page extends AppCompatActivity {
 
 
 
-    }
+

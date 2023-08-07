@@ -5,8 +5,9 @@ import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Looper;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -17,12 +18,14 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
+
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        boolean previouslyStarted = prefs.getBoolean(getString(R.string.pref_previously_started), false);
+        boolean previousStarted = prefs.getBoolean(getString(R.string.pref_previously_started),false);
 
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+
 
                     Intent a = new Intent(getApplicationContext(), otp_verification_page.class);//intent object creation
                     a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);//registering flags
