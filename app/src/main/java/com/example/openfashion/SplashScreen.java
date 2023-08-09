@@ -1,5 +1,6 @@
 package com.example.openfashion;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Handler;
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 
+@SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 
     final Handler handler = new Handler(Looper.getMainLooper());//handler object creation
@@ -22,16 +24,30 @@ public class SplashScreen extends AppCompatActivity {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean previousStarted = prefs.getBoolean(getString(R.string.pref_previously_started),false);
 
+
+        // handler postdelayed method implemented
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
 
-
+                if(!previousStarted) {
+                    SharedPreferences.Editor edit = prefs.edit();
+                    edit.putBoolean(getString(R.string.pref_previously_started), Boolean.TRUE);
+                    edit.commit();
+                    Intent a = new Intent(getApplicationContext(), home_page.class);//intent object creation
+                    a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);//registering flags
+                    startActivity(a);//starting the intent
+                    finish();
+                }
+                else{
                     Intent a = new Intent(getApplicationContext(), otp_verification_page.class);//intent object creation
                     a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);//registering flags
                     startActivity(a);//starting the intent
                     finish();
                 }
+
+
+            }
         }, 1500);
     }
 }
