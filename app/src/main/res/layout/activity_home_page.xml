@@ -6,69 +6,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home_page"
-    android:background="#D6D6D6">
+    android:background="@color/white">
 
-    <LinearLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
         <LinearLayout
-            android:padding="5dp"
-            android:id="@+id/fashion"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_marginHorizontal="5dp"
-                android:layout_width="25dp"
-                android:layout_height="40dp"
-                android:src="@drawable/menu_icon"
-                >
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            </ImageView>
-            <ImageView
-                android:layout_marginLeft="100dp"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/fashionopen"
-                >
 
-            </ImageView>
-            <ImageView
-                android:layout_marginStart="70dp"
-                android:layout_width="25dp"
-                android:layout_height="40dp"
-                android:src="@drawable/search"
-                >
-
-            </ImageView>
-            <ImageView
-                android:layout_marginHorizontal="10dp"
-                android:layout_width="25dp"
-                android:layout_height="40dp"
-                android:src="@drawable/shoppingbag"
-                >
-
-            </ImageView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="690dp"
-            android:orientation="vertical"
-
-            >
-            <ScrollView
+            <LinearLayout
+                android:padding="5dp"
+                android:id="@+id/fashion"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/menu_icon"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fashionopen"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginStart="70dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/search"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/shoppingbag"
+                    >
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="690dp"
+                android:orientation="vertical"
+                android:layout_below="@+id/fashion"
                 >
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/fashion"
+
                     >
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -143,38 +143,44 @@
 
                     </LinearLayout>
                     <LinearLayout
+                        android:id="@+id/collection"
                         android:gravity="center"
                         android:layout_alignParentBottom="true"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
+                        android:backgroundTint="@color/white"
                         >
                         <ImageButton
-                            android:layout_marginBottom="10dp"
+                            android:layout_marginBottom="20dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/explorebutton"
+                            android:background="@drawable/explorebutton"
                             >
                         </ImageButton>
                         <ImageView
-                            android:layout_marginBottom="10dp"
+                            android:layout_marginBottom="40dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/slide"
                             >
+                        </ImageView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+                            >
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/arrival">
 
                         </ImageView>
-
-
-
-
-
-
-
-
-
-
-
 
                     </LinearLayout>
 
@@ -183,19 +189,18 @@
                 </RelativeLayout>
 
 
+            </LinearLayout>
 
 
-            </ScrollView>
+
+
 
 
         </LinearLayout>
-        
+
+    </ScrollView>
 
 
-
-
-
-    </LinearLayout>
 
 
     

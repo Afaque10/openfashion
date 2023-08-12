@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".blogger">
+    tools:context=".blogger"
+    android:background="@color/white">
+    //#C89C9E9E
 
     <LinearLayout
 
@@ -559,9 +561,7 @@ The Biggest Fall Trends"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="The excitement of fall fashion \nis here and I’m already loving \nsome of the trend forecasts "
-
                             android:textSize="16dp"
-                            android:textStyle="bold"
 
 
                             >
@@ -575,9 +575,26 @@ The Biggest Fall Trends"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/learnmorebutton"
+                android:backgroundTint="@color/white"
+                >
+            </ImageButton>
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram"
                 >
 
-            </ImageButton>
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"
+                >
+
+            </ImageView>
+
         </LinearLayout>
 
     </ScrollView>
