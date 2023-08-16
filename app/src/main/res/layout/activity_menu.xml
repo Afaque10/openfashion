@@ -114,7 +114,6 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:text="New"
-                android:textStyle="bold"
                 android:textSize="18dp"
                 >
             </TextView>
@@ -140,7 +139,6 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:text="Apparel"
-                    android:textStyle="bold"
                     android:textSize="18dp"
                     >
                 </TextView>
@@ -162,7 +160,6 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:text="Bag"
-                    android:textStyle="bold"
                     android:textSize="18dp"
                     >
                 </TextView>
@@ -184,7 +181,6 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:text="Shoes"
-                    android:textStyle="bold"
                     android:textSize="18dp"
                     >
                 </TextView>
@@ -206,7 +202,6 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:text="Beauty"
-                    android:textStyle="bold"
                     android:textSize="18dp"
                     >
                 </TextView>
@@ -228,7 +223,6 @@
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:text="Accessories"
-                    android:textStyle="bold"
                     android:textSize="18dp"
                     >
                 </TextView>
