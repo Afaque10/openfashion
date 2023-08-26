@@ -84,6 +84,7 @@
                             >
 
                             <ImageView
+                                android:id="@+id/fashion_1"
                                 android:layout_width="match_parent"
                                 android:layout_height="660dp"
                                 android:scaleType="fitXY"
@@ -175,12 +176,7 @@
 
                         </LinearLayout>
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/arrival">
 
-                        </ImageView>
 
                     </LinearLayout>
 
@@ -190,6 +186,118 @@
 
 
             </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrival">
+            </ImageView>
+            <LinearLayout
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="All"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    >
+
+                </TextView>
+                <TextView
+
+                   android:paddingLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apparel"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dress"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="T-shirt"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bag"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle325"
+                            >
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle325"
+                            >
+                        </ImageView>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
 
 
 
