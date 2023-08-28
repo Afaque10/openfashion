@@ -274,7 +274,6 @@
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="200dp"
@@ -286,7 +285,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/rectangle325"
+                            android:background="@drawable/rectangle324"
                             >
                         </ImageView>
                     </androidx.cardview.widget.CardView>
@@ -296,6 +295,280 @@
 
 
             </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle323"
+                            >
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="170dp"
+                        android:layout_height="200dp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle322"
+                            >
+                        </ImageView>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPLORE MORE >>>"
+                android:textColor="@color/black">
+            </TextView>
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider"
+                >
+            </ImageView>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:layout_marginRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/prada"
+                    >
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_marginRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/burberry"
+                    >
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boss"
+                    >
+
+                </ImageButton>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:layout_marginRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/catier"
+                    >
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_marginRight="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gucci"
+                    >
+
+                </ImageButton>
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tiffanyco"
+                    >
+
+                </ImageButton>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider"
+                >
+            </ImageView>
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COLLECTIONS"
+                >
+
+            </TextView>
+            <ImageButton
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame3"
+                >
+            </ImageButton>
+            <ImageButton
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image9"
+                >
+            </ImageButton>
+
+            <ImageButton
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/video"
+                >
+            </ImageButton>
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUST FOR YOU"
+                >
+            </TextView>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider"
+                >
+            </ImageView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" @ TRENDING"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                >
+            </TextView>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/trending"
+                    android:text="#2023">
+
+                </Button>
+                <Button
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="60dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/trending"
+                    android:text="#spring">
+
+                </Button>
+                <Button
+                    android:layout_marginRight="5dp"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:background="@drawable/trending"
+                android:text="#collection">
+
+            </Button>
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/trending"
+                    android:text="#fall">
+
+                </Button>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/trending"
+                    android:text="#dress">
+
+                </Button>
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/trending"
+                    android:text="#autumncollection">
+
+                </Button>
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="110dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/trending"
+                    android:text="#openfashion">
+
+                </Button>
+
+
+
+
+            </LinearLayout>
+
+
 
 
 
@@ -311,5 +584,5 @@
 
 
 
-    
+
   </RelativeLayout>
