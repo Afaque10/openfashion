@@ -16,6 +16,20 @@
         android:theme="@style/Theme.OpenFashion"
         tools:targetApi="31">
         <activity
+            android:name=".black_collection_detail"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".collection"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".searchview"
             android:exported="false">
             <meta-data
