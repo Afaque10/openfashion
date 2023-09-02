@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ourstory_page">
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/fashion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_icon"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fashionopen"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginStart="70dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/shoppingbag"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fashion"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O U R   S T O R Y "
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+        </ImageView>
+        <TextView
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Fashion - Free Ecommerce UI Kit is a \nfree download UI kit. You can open Open \nFashion - Free Ecommerce UI Kit file by \nFigma."
+            >
+
+        </TextView>
+        <TextView
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create stunning shop with bulletproof \n guidelines and thoughtful components. Its \nlibrary contains more than 50+ components supporting Light & Dark Mode and 60+ \nready to use mobile screens."
+            >
+        </TextView>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ourstory"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

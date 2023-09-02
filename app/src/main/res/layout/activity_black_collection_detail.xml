@@ -103,6 +103,8 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -124,6 +126,8 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -145,6 +149,8 @@
 
             </LinearLayout>
             <LinearLayout
+                android:padding="5dp"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -165,7 +171,58 @@
                 </ImageButton>
 
             </LinearLayout>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOU MAY ALSO LIKE"
+                android:textColor="@color/white"
+                >
+            </TextView>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider"
+                >
+            </ImageView>
+            <HorizontalScrollView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blackd">
 
+                    </ImageButton>
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/blackd1">
+
+                        </ImageButton>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                
+            </HorizontalScrollView>
 
 
 
