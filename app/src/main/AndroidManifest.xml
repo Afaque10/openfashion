@@ -16,7 +16,14 @@
         android:theme="@style/Theme.OpenFashion"
         tools:targetApi="31">
         <activity
-            android:name=".ourstory_page"
+            android:name=".contact_us"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".our_story_page"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
