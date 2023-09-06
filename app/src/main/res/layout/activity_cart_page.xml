@@ -48,13 +48,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         >
-        <ImageButton
+        <Button
             android:layout_width="412dp"
             android:layout_height="match_parent"
             android:background="@drawable/continuebutton"
             >
 
-        </ImageButton>
+        </Button>
 
     </LinearLayout>
 

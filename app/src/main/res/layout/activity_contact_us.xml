@@ -217,7 +217,6 @@
                 android:orientation="horizontal"
                 >
                 <TextView
-                    te
                     android:textColor="@color/black"
                     android:layout_marginRight="70dp"
                     android:layout_width="wrap_content"
@@ -250,14 +249,15 @@
 
 
 
+
         </LinearLayout>
 
     </ScrollView>
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 </RelativeLayout>

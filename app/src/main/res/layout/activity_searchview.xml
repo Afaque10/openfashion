@@ -128,6 +128,7 @@
 
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -146,27 +147,31 @@
             </ImageView>
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan"
+                    android:text="21WN \nreversible angora cardigan\n120$"
                     >
 
                 </TextView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:textColor="#DD8560">
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
 
                 </TextView>
 
+
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -187,27 +192,32 @@
 
             </LinearLayout>
             <LinearLayout
+
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan"
+                    android:text="21WN \nreversible angora cardigan\n120$"
                     >
 
                 </TextView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:textColor="#DD8560">
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
 
                 </TextView>
 
+
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -228,27 +238,31 @@
 
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan"
+                    android:text="21WN \nreversible angora cardigan\n120$"
                     >
 
                 </TextView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:textColor="#DD8560">
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
 
                 </TextView>
 
+
             </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -269,24 +283,27 @@
 
         </LinearLayout>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 >
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan"
+                    android:text="21WN \nreversible angora cardigan\n120$"
                     >
 
                 </TextView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="120$"
-                    android:textColor="#DD8560">
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
 
                 </TextView>
+
 
             </LinearLayout>
             <LinearLayout
