@@ -5,6 +5,7 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 tools:context=".product_detail">
 
                 <ScrollView
@@ -211,19 +212,148 @@
                             >
                         </TextView>
                         <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Do not use bleach"
+                                >
+
+                            </TextView>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Do not tumble dry"
+                                >
+                            </TextView>
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dry clean with tetrachloroethylene"
+                                >
+                            </TextView>
+                            <TextView android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Iron at a maximum of 110ºC/230ºF"
+                            >
+                        </TextView>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CARE"
+                            android:textColor="@color/black"
+                            >
+                        </TextView>
+                        <LinearLayout
+                            android:padding="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="wrap_content"
+                                android:text="Free Flat Rate Shipping"
+                                android:textColor="@color/black">
+
+                            </TextView>
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src=""
+                                android:background="@drawable/upward"
                                 >
-
                             </ImageView>
-
                         </LinearLayout>
+                        <TextView
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Estimated to be delivered on\n 09/11/2021 - 12/11/2021."
+                            >
+                        </TextView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_gravity="center"
+                            android:layout_width="330dp"
+                            android:layout_height="1dp"
+                            android:backgroundTint="@color/black">
+                        </androidx.cardview.widget.CardView>
+                        <LinearLayout
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="wrap_content"
+                                android:text="COD Policy"
+                                android:textColor="@color/black">
+
+                            </TextView>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/downword"
+                                >
+                            </ImageView>
+                        </LinearLayout>
+                        <androidx.cardview.widget.CardView
+                            android:layout_gravity="center"
+                            android:layout_width="330dp"
+                            android:layout_height="1dp"
+                            android:backgroundTint="@color/black">
+                        </androidx.cardview.widget.CardView>
+                        <LinearLayout
+                            android:padding="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+                            <TextView
+                                android:layout_width="310dp"
+                                android:layout_height="wrap_content"
+                                android:text="Return Policy"
+                                android:textColor="@color/black">
+
+                            </TextView>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/downword"
+                                >
+                            </ImageView>
+                        </LinearLayout>
+                        <TextView
+                            android:textSize="18dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="YOU MAY ALSO LIKE"
+                            >
+                        </TextView>
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/divider"
+                            >
+
+                        </ImageView>
+
+
 
 
 

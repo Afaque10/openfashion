@@ -6,7 +6,7 @@ android {
     namespace 'com.example.openfashion'
     compileSdk 33
 
-    defaultConfig {
+    defaultConfig{
         applicationId "com.example.openfashion"
         minSdk 21
         targetSdk 33
@@ -26,9 +26,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
@@ -37,8 +34,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment:2.5.3'
-    implementation 'androidx.navigation:navigation-ui:2.5.3'
+    implementation 'androidx.navigation:navigation-fragment:2.7.2'
+    implementation 'androidx.navigation:navigation-ui:2.7.2'
     testImplementation 'junit:junit:4.13.2'
     //noinspection GradleCompatible
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -47,7 +44,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:20.2.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.android.material:material:1.9.0'
-    implementation 'com.google.firebase:firebase-auth:22.1.0'
-    implementation 'com.google.firebase:firebase-auth-ktx:22.1.0'
+    implementation 'com.google.firebase:firebase-auth:22.1.1'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
 
 }
