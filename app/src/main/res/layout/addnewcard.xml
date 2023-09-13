@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addnewcard">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/fashion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_icon"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fashionopen"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginStart="70dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/shoppingbag"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fashion"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAYMENT METHOD"
+            android:textColor="@color/black"
+            android:gravity="center"
+            >
+        </TextView>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/divider"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/cards"
+        android:layout_below="@+id/method"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card1">
+
+            </ImageButton>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/paymentcard">
+
+                </ImageButton>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card2">
+
+                </ImageButton>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/cards"
+        >
+        <EditText
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME ON CARD"
+            >
+
+        </EditText>
+        <EditText
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARD NUMBER"
+            >
+        </EditText>
+    </LinearLayout>
+    
+
+
+</RelativeLayout>
