@@ -14,17 +14,19 @@
         android:gravity="center"
         >
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:src="@drawable/fashionopen"
             >
         </ImageView>
 
         <ProgressBar
+            android:layout_marginTop="5dp"
+            android:id="@+id/load"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:indeterminateTint="#88000000"
-            android:visibility="gone">
+            android:indeterminateTint="#65000000"
+            android:visibility="visible">
 
         </ProgressBar>
 

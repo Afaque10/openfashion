@@ -109,20 +109,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <ImageButton
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octo1"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </Button>
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octoshoes"
                     >
 
-                </ImageButton>
+                </Button>
 
             </LinearLayout>
             <LinearLayout
@@ -132,20 +132,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <ImageButton
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octo3"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </Button>
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octo4"
                     >
 
-                </ImageButton>
+                </Button>
 
             </LinearLayout>
             <LinearLayout
@@ -155,20 +155,20 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <ImageButton
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octo5"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </Button>
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/octo6"
                     >
 
-                </ImageButton>
+                </Button>
 
             </LinearLayout>
             <TextView
@@ -199,22 +199,22 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     >
-                    <ImageButton
+                    <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/blackd">
 
-                    </ImageButton>
+                    </Button>
                     <LinearLayout
                         android:layout_marginLeft="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
-                        <ImageButton
+                        <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/blackd1">
 
-                        </ImageButton>
+                        </Button>
                     </LinearLayout>
 
 
