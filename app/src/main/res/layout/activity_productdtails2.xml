@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".product_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:id="@+id/fashion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/menu_icon"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fashionopen"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginStart="70dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/search"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/shoppingbag"
+                    >
+
+                </ImageView>
+
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@drawable/ring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            </ImageView>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ring2"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ring3"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ring4"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ring5"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M O H A N\nRecycle Boucle Knit Cardigan Pink">
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120$"
+                android:textColor="#DD8560">
+            </TextView>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ring Size"
+                        >
+                    </TextView>
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle"
+                        android:text="6"
+                        android:textSize="10dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white">
+
+                    </Button>
+                    <Button
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle"
+                        android:text="8"
+                        android:backgroundTint="@color/white"
+                        android:textSize="10dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black">
+
+                    </Button>
+                    <Button
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle"
+                        android:text="9"
+                        android:textSize="10dp"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black">
+
+                    </Button>
+                    <Button
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle"
+                        android:text="10"
+                        android:textSize="10dp"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black">
+
+                    </Button>
+                    <Button
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle"
+                        android:text="11"
+                        android:textSize="10dp"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black">
+
+                    </Button>
+
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/addbasket">
+
+            </Button>
+            <TextView
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GALLERY"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/image1"
+                    >
+
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We work with monitoring programmes to ensure compliance with safety, health and quality\n standards for our products."
+                >
+            </TextView>
+            <TextView
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARE"
+                >
+            </TextView>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To keep your jackets and coats clean, you only \nneed to freshen them up and go over them with a \ncloth or a clothes brush. If you need to dry clean \na garment, look for a dry cleaner that uses\n technologies that are respectful of the \nenvironment."
+                >
+            </TextView>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Do not use bleach"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Do not tumble dry"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dry clean with tetrachloroethylene"
+                    >
+                </TextView>
+                <TextView android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Iron at a maximum of 110ºC/230ºF"
+                    >
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CARE"
+                android:textColor="@color/black"
+                >
+            </TextView>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:text="Free Flat Rate Shipping"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/upward"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estimated to be delivered on\n 09/11/2021 - 12/11/2021."
+                >
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black">
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:text="COD Policy"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/downword"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="330dp"
+                android:layout_height="1dp"
+                android:backgroundTint="@color/black">
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:text="Return Policy"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/downword"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <TextView
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YOU MAY ALSO LIKE"
+                >
+            </TextView>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/divider"
+                >
+            </ImageView>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle322"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle322"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle322"
+                    >
+                </ImageView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle322"
+                    >
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21WN \nreversible angora cardigan\n120$"
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
