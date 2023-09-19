@@ -153,13 +153,13 @@
                         android:orientation="vertical"
                         android:backgroundTint="@color/white"
                         >
-                        <ImageButton
+                            <ImageView
                             android:layout_marginBottom="20dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/explorebutton"
                             >
-                        </ImageButton>
+                            </ImageView>
                         <ImageView
                             android:layout_marginBottom="40dp"
                             android:layout_width="wrap_content"
@@ -364,29 +364,29 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <ImageButton
+                <ImageView
                     android:layout_marginRight="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/prada"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </ImageView>
+                <ImageView
                     android:layout_marginRight="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/burberry"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </ImageView>
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/boss"
                     >
 
-                </ImageButton>
+                </ImageView>
 
             </LinearLayout>
             <LinearLayout
@@ -397,29 +397,29 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <ImageButton
+                <ImageView
                     android:layout_marginRight="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/catier"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </ImageView>
+                <ImageView
                     android:layout_marginRight="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/gucci"
                     >
 
-                </ImageButton>
-                <ImageButton
+                </ImageView>
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/tiffanyco"
                     >
 
-                </ImageButton>
+                </ImageView>
 
             </LinearLayout>
             <ImageView
@@ -441,29 +441,29 @@
                 >
 
             </TextView>
-            <ImageButton
+            <ImageView
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/frame3"
                 >
-            </ImageButton>
-            <ImageButton
+            </ImageView>
+            <ImageView
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/image9"
                 >
-            </ImageButton>
+            </ImageView>
 
-            <ImageButton
+            <ImageView
                 android:layout_marginTop="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/video"
                 >
-            </ImageButton>
+            </ImageView>
             <TextView
                 android:textColor="@color/black"
                 android:textSize="18dp"
