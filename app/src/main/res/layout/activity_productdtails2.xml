@@ -215,6 +215,7 @@
 
             </TextView>
             <LinearLayout
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -226,65 +227,22 @@
                     >
 
                 </ImageView>
-            </LinearLayout>
-            <TextView
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="We work with monitoring programmes to ensure compliance with safety, health and quality\n standards for our products."
-                >
-            </TextView>
-            <TextView
-                android:padding="10dp"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CARE"
-                >
-            </TextView>
-            <TextView
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="To keep your jackets and coats clean, you only \nneed to freshen them up and go over them with a \ncloth or a clothes brush. If you need to dry clean \na garment, look for a dry cleaner that uses\n technologies that are respectful of the \nenvironment."
-                >
-            </TextView>
-            <LinearLayout
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:layout_marginTop="10dp"
+                <ImageView
+                    android:layout_marginTop="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Do not use bleach"
+                    android:background="@drawable/iamge4"
                     >
 
-                </TextView>
-                <TextView
-                    android:layout_marginTop="10dp"
+                </ImageView>
+                <ImageView
+                    android:layout_marginTop="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Do not tumble dry"
+                    android:background="@drawable/image5"
                     >
-                </TextView>
-                <TextView
-                    android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dry clean with tetrachloroethylene"
-                    >
-                </TextView>
-                <TextView android:layout_marginTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Iron at a maximum of 110ºC/230ºF"
-                    >
-                </TextView>
+
+                </ImageView>
             </LinearLayout>
             <TextView
                 android:layout_marginTop="10dp"
@@ -399,13 +357,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle322"
+                    android:background="@drawable/photo2"
                     >
                 </ImageView>
                 <ImageView
+                    android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle322"
+                    android:background="@drawable/photo3"
                     >
                 </ImageView>
             </LinearLayout>
@@ -415,21 +374,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan\n120$"
-                    >
-
-                </TextView>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan\n120$"
-                    >
-
-                </TextView>
 
 
             </LinearLayout>
@@ -442,40 +386,104 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle322"
+                    android:background="@drawable/photo4"
                     >
                 </ImageView>
                 <ImageView
+                    android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rectangle322"
+                    android:background="@drawable/photo5"
                     >
                 </ImageView>
             </LinearLayout>
-            <LinearLayout
+            <ImageView
+
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/instagram"
+                >
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="support@openui.design"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+60 825 876"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08:00 - 22:00 - Everyday"
+                >
+
+            </TextView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </ImageView>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
                 <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginRight="70dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan\n120$"
-                    >
+                    android:text="ABOUT">
 
                 </TextView>
-
                 <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginRight="70dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21WN \nreversible angora cardigan\n120$"
-                    >
+                    android:text="CONTACT">
 
                 </TextView>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BLOG">
 
+                </TextView>
 
             </LinearLayout>
+
 
 
 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blog_grind_view">
+
+
+    <LinearLayout
+
+        android:padding="5dp"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_icon"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fashionopen"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginStart="70dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:src="@drawable/shoppingbag"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blog"
+        android:id="@+id/blog"
+        >
+
+    </ImageView>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/blog"
+        android:id="@+id/button">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="Fashion"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+
+            android:background="@drawable/curl"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Promo"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+
+            android:background="@drawable/curl"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Policy"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+
+            android:background="@drawable/curl"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="LookBook"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+
+            android:background="@drawable/curl"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Fashion"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+
+            android:background="@drawable/curl"
+            >
+        </TextView>
+
+    </LinearLayout>
+    <ScrollView
+
+        android:layout_below="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blog1"
+                >
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blog3"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blog4">
+
+            </ImageView>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/learnmorebutton"
+                android:backgroundTint="@color/white"
+                >
+            </ImageButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
