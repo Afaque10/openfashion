@@ -481,6 +481,40 @@
                 android:background="@drawable/divider"
                 >
             </ImageView>
+            <HorizontalScrollView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/image7">
+
+                    </Button>
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/image8">
+
+                        </Button>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
             <TextView
                 android:layout_marginTop="10dp"
                 android:gravity="center"

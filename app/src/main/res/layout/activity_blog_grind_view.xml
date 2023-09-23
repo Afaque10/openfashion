@@ -128,26 +128,25 @@
 
     </LinearLayout>
     <ScrollView
-
-        android:layout_below="@id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/button"
         >
         <LinearLayout
-            android:layout_gravity="center"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             >
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/blog1"
                 >
 
             </ImageView>
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/blog3"
                 >
@@ -155,7 +154,7 @@
             </ImageView>
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/blog4">
 
@@ -171,6 +170,7 @@
         </LinearLayout>
 
     </ScrollView>
+
 
 
 </RelativeLayout>
